@@ -1,0 +1,9 @@
+radius = float(input())
+tinggi = float(input())
+pi = 22.0/7.0
+volume = pi * radius * radius * tinggi
+luas = 2 * pi * radius * ( radius + tinggi)
+keliling = 2 * pi * radius
+print(f"Volume = {volume:.2f}")
+print(f"Luas = {luas:.2f}")
+print(f"Keliling = {keliling:.2f}")
